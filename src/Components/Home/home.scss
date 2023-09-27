@@ -1,195 +1,743 @@
-:root{
-    --PrimaryColor: hsl(199,100%,33%);
-    --SecondaryColor: hsl(187,85%,43%);
-    --gradientColor: linear-gradient(to-right,hsl(0, 0%, 0%),hsl(0, 0%, 0%));
-    --whiteColor: hsl(0,0%,100%);
-    --blackColor: hsl(201,33%,16%);
-    --textColor: hsl(240,4%,36%);
-    --whiteColorDeam: hsl(0,0%,93%);
-    --greyText: rgb(190,190,190);
-    --inputColor: rgb(239,239,239);
-    --bodyColor: rgb(240,240,240);
-    --cardBG: rgb(255,255,255);
+
+
+.HomePage {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.Booking{
-    position: relative;
-    text-align: center;
-    color: white;
-    
-    .smallText{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 24px;
-        color: #000000;
-        font-weight: bold;
-    }
-
-    .tour{
-        position: absolute;
-        top: 55%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 24px;
-        color: #DE9E5B;
-    }
-    .btnBook{
-        position: absolute;
-        top: 63%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: .6rem 1.5rem;
-        background: var(--gradientColor);
-        border-radius: 3rem;
-        cursor: pointer;
-        font-size: 20px;
-        font-weight: bold;
-        border-radius: 0%;
-        border: 2px solid #000000;
-        color:black;
-        .btnColor{
-            color:black;
-        }
-    }
+.HomePage .ContactSection {
+  height: 4584px;
+  position: relative;
+  width: 1728px;
 }
 
-.About{
-    position: relative;
-    text-align: center;
-    color: white;
-        .Why{
-            position: absolute;
-            top: 150px;
-            left: 20%;
-            transform: translate(-50%, -50%);
-            font-size: 24px;
-            color: #DE9E5B;
-        }
-        .About{
-            position: absolute;
-            top: 200px;
-            left: 20%;
-            transform: translate(-50%, -50%);
-            font-size: 40px;
-            color:black;
-        }
-        .AboutUs{
-            top: 240px;
-            left: 29%;
-            transform: translate(-50%, -50%);
-            position: absolute;
-            margin-top: 60px;
-            margin-right: 100px;
-            width: 30%;
-            font-size: 20px;
-            color:black;
-            font-weight: bold;
-            text-align: left;
-        }
-        .imgAbout{
-            position: absolute;
-            float: right;
-            max-width: 500px;
-            margin-left: 200px;
-            margin-top: 100px;
-        }
-        .btnMore{
-            position: absolute;
-            top: 408px;
-            left: 18%;
-            transform: translate(-50%, -50%);
-            padding: .6rem 1.5rem;
-            background: var(--gradientColor);
-            border-radius: 3rem;
-            cursor: pointer;
-            font-size: 20px;
-            font-weight: bold;
-            border-radius: 0%;
-            border: 2px solid #000000;
-            color:black;
-        .btnColor{
-            color:black;
-         }
-    }
+.HomePage .ContactButton {
+  background-color: #081b46;
+  border-radius: 10px;
+  height: 61px;
+  left: 1323px;
+  position: absolute;
+  top: 37px;
+  width: 209px;
 }
 
-.Ability{
-    position: relative;
-    .AboutAbility{
-        position: absolute;
-        top: 50%;
-        left: 20%;
-        transform: translate(-50%, -50%);
-        font-size: 24px;
-        color: #DE9E5B;
-        font-weight: bold;
-    }
-    .Advantage{
-        position: absolute;
-        top: 53%;
-        left: 14%;
-        transform: translate(-44%, -50%);
-        font-size: 24px;
-        color: white;
-        font-weight: bold;
-    }
-    .Text{
-        position: absolute;
-        top: 57%;
-        left: 26%;
-        width: 32%;
-        transform: translate(-44%, -50%);
-        font-size: 20px;
-        color: white;
-        font-weight: bold;
-    }
-    .imgAbility{
-        margin-top: 500px;
-    }
+.HomePage .Contact {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
 }
 
-.ImageSide{
-    .Path{
-        margin-top: 25px;
-        margin-left: 50px;
-        font-size: 24px;
-        color:#DE9E5B;
-    }
-    .Popular{
-        margin-left: 50px;
-        margin-top: 15px;
-        font-size: 40px;
-        font-weight: bold;
-    }
-    .inVietNam{
-        margin-left: 50px;
-        margin-top: 15px;
-        font-size: 24px;
-        color:#DE9E5B;
-    }
-    .imgSide1{
-        margin-left: 50px;
-        margin-top: 15px;
-        width: 25%;
-    }
-    .imgSides{
-        float:left;
-        max-width: 33%;
-        padding: 50px;
-    }
-    .SidebySide::after{
-        content: "";
-        display: table;
-        clear: both;
-    }
-    .VN1{
-        .TextVN1{
-            position: absolute;
-            margin-top: 300px;
-            margin-left: 176px;
-            color:white;
-        }
-    }
+.HomePage .text-wrapper-6 {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 1635px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  white-space: nowrap;
+}
+
+.HomePage .mdi-account {
+  height: 59px;
+  left: 1554px;
+  position: absolute;
+  top: 37px;
+  width: 59px;
+}
+
+.HomePage .Welcome {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 541px;
+  left: 2px;
+  position: absolute;
+  top: 70px;
+  width: 1726px;
+}
+
+.HomePage .p {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 443px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 230px;
+  white-space: nowrap;
+}
+
+.HomePage .TourText {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 599px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 270px;
+  white-space: nowrap;
+}
+
+.HomePage .BtnOrder {
+  border: 3px solid;
+  border-color: #081b46;
+  background-color: transparent;
+  height: 65px;
+  left: 725px;
+  position: absolute;
+  top: 350px;
+  width: 186px;
+}
+
+.HomePage .PressOrder {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 24px;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.HomePage .rectangle {
+  height: 529px;
+  left: 835px;
+  object-fit: cover;
+  position: absolute;
+  top: 748px;
+  width: 852px;
+}
+
+.HomePage .Why {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 844px;
+}
+
+.HomePage .AboutUs {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 887px;
+  white-space: nowrap;
+}
+
+.HomePage .Popular {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2258px;
+  white-space: nowrap;
+}
+
+.HomePage .Channel {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3287px;
+  white-space: nowrap;
+}
+
+.HomePage .AboutUsText {
+  color: #B9B4C7;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 124px;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 986px;
+  width: 626px;
+}
+
+.HomePage .overlap-2 {
+  border: 3px solid;
+  border-color: #081b46;
+  background-color: transparent;
+  height: 65px;
+  left: 93px;
+  position: absolute;
+  top: 1152px;
+  width: 186px;
+}
+
+.HomePage .More {
+  color: #081b46;
+  border-color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 24px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.HomePage .VectorImg {
+  height: 16px;
+  left: 144px;
+  position: absolute;
+  top: 25px;
+  width: 22px;
+}
+
+.HomePage .vector {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 20px;
+}
+
+.HomePage .img {
+  height: 16px;
+  left: 13px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.HomePage .overlap-4 {
+  border: 3px solid;
+  border-color: #081b46;
+  background-color: transparent;
+  height: 65px;
+  left: 91px;
+  position: absolute;
+  top: 4191px;
+  width: 186px;
+}
+
+.HomePage .overlap-5 {
+  border: 3px solid;
+  border-color: #081b46;
+  background-color: transparent;
+  height: 65px;
+  left: 1064px;
+  position: absolute;
+  top: 4191px;
+  width: 186px;
+}
+
+.HomePage .overlap-6 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 784px;
+  left: 0;
+  position: absolute;
+  top: 660px;
+  width: 1728px;
+}
+
+.HomePage .Ability {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 900px;
+}
+
+.HomePage .Advantage {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 930px;
+  white-space: nowrap;
+}
+
+.HomePage .AbilityText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 60px;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 990px;
+  width: 626px;
+}
+
+.HomePage .Amount {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2202px;
+}
+
+.HomePage .New {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3231px;
+}
+
+.HomePage .HotelVN {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3915px;
+}
+
+.HomePage .SpaSingapore {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 1068px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3915px;
+}
+
+.HomePage .DateVN {
+  color: #b9b4c7;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3986px;
+}
+
+.HomePage .DateSingapore {
+  color: #b9b4c7;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 1070px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3986px;
+}
+
+.HomePage .TextVN {
+  color: #b9b4c7;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 91px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 4042px;
+  width: 582px;
+}
+
+.HomePage .TextSingapore{
+  color: #b9b4c7;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 1068px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 4042px;
+  width: 620px;
+}
+
+.HomePage .InContry {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2333px;
+}
+
+.HomePage .OutContry {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2782px;
+}
+
+.HomePage .InContry1 {
+  height: 316px;
+  left: 93px;
+  position: absolute;
+  top: 2390px;
+  width: 443px;
+}
+
+.HomePage .TpHCM {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-26.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 316px;
+  position: relative;
+  width: 441px;
+}
+
+.HomePage .TpHCMText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 227px;
+}
+
+.HomePage .OutContry1 {
+  height: 316px;
+  left: 93px;
+  position: absolute;
+  top: 2839px;
+  width: 443px;
+}
+
+.HomePage .NewYork {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-29.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 316px;
+  position: relative;
+  width: 441px;
+}
+
+.HomePage .NewYorkText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 136px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+}
+
+.HomePage .OutContry2 {
+  height: 316px;
+  left: 651px;
+  position: absolute;
+  top: 2839px;
+  width: 443px;
+}
+
+.HomePage .Singapore {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-30.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 316px;
+  position: relative;
+  width: 441px;
+}
+
+.HomePage .SingaporeText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 145px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+}
+
+.HomePage .OutContry3 {
+  height: 316px;
+  left: 1209px;
+  position: absolute;
+  top: 2839px;
+  width: 443px;
+}
+
+.HomePage .Malay {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-31.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 316px;
+  position: relative;
+  width: 441px;
+}
+
+.HomePage .MalayText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 237px;
+}
+
+.HomePage .InContry2 {
+  height: 316px;
+  left: 651px;
+  position: absolute;
+  top: 2390px;
+  width: 443px;
+}
+
+.HomePage .HaNoi {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-27.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 316px;
+  position: relative;
+  width: 441px;
+}
+
+.HomePage .HaNoiText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 163px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 227px;
+}
+
+.HomePage .InContry3 {
+  height: 316px;
+  left: 1209px;
+  position: absolute;
+  top: 2390px;
+  width: 443px;
+}
+
+.HomePage .Hue {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-28.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 316px;
+  position: relative;
+  width: 441px;
+}
+
+.HomePage .HueText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 185px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 227px;
+}
+
+.HomePage .HotelImage {
+  height: 469px;
+  left: 93px;
+  object-fit: cover;
+  position: absolute;
+  top: 3399px;
+  width: 582px;
+}
+
+.HomePage .SpaImage {
+  height: 469px;
+  left: 1068px;
+  object-fit: cover;
+  position: absolute;
+  top: 3399px;
+  width: 582px;
+}
+
+.HomePage .footer {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-11.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 293px;
+  left: 0;
+  position: absolute;
+  top: 4291px;
+  width: 1728px;
+}
+
+.HomePage .FooterText {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 656px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 75px;
+}
+
+.HomePage .FooterText1 {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 748px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 121px;
+  white-space: nowrap;
+}
+
+.HomePage .Email {
+  height: 54px;
+  left: 570px;
+  position: absolute;
+  top: 163px;
+  width: 598px;
+}
+
+.HomePage .WriteEmail {
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-color: #ffffff;
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 419px;
+}
+
+.HomePage .EmailText {
+  color: #b9b4c7;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.HomePage .SignUp {
+  background-color: #081b46;
+  height: 54px;
+  left: 419px;
+  position: absolute;
+  top: 0;
+  width: 175px;
+}
+
+.HomePage .SignUpButton {
+  color: #f8f8f8;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+}
+
+.HomePage .Language {
+  height: 10px;
+  left: 1677px;
+  position: absolute;
+  top: 62px;
+  width: 16px;
+}
+
+.HomePage .logo {
+  height: 77px;
+  left: 70px;
+  object-fit: cover;
+  position: absolute;
+  top: 29px;
+  width: 244px;
+}
+
+.HomePage .navbar {
+  left: 484px !important;
+  position: absolute !important;
+  top: 55px !important;
 }

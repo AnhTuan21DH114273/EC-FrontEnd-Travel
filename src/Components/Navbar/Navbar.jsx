@@ -1,69 +1,28 @@
-import React, {useState} from "react"
-import './navbar.css'
-import {GiDolphin} from 'react-icons/gi'
-import {AiFillCloseCircle} from 'react-icons/ai'
-import {TbGridDots} from 'react-icons/tb'
-import img from '../../Assets/Logo.png'
+import React from "react"
+import './navbar.css';
+import {Link} from 'react-router-dom'
 
-const Navbar = () => {
-    const [active, setActive] = useState('navBar')
-    const showNav = ()=>{
-        setActive('navBar activeNavbar')
-    }
-    const closeNav =()=>{
-        setActive('navBar')
-    }
-    return(
-    <section className="navBarSection">
-        <header className="header flex">
-
-            <div className="logoDiv">
-                <a href="#" className="logo flex">
-                    <img src={img}></img>
-                </a>
+export const Navbar = ({ className }) => {
+    return (
+        <div className={`navbar ${className}`}>
+            
+            <div>
+              <Link to ="/About" className="About">Giới thiệu</Link>
             </div>
-        
-            <div className={active}>
-            <ul className="navLists flex">
-
-                <li className="navItem">
-                    <a href="#" className="navLink">Trang chủ</a>
-                </li>
-
-                <li className="navItem">
-                    <a href="#" className="navLink">Về chúng tôi</a>
-                </li>
-
-                <li className="navItem">
-                    <a href="#" className="navLink">Dịch vụ</a>
-                </li>
-
-                <li className="navItem">
-                    <a href="#" className="navLink">Điểm đến</a>
-                </li>
-
-                <li className="navItem">
-                    <a href="#" className="navLink">Kênh</a>
-                </li>
-
-                <button className='btn'>
-                    <a href="#">Liên hệ chúng tôi</a>
-                </button>
-
-            </ul>
-
-            <div onClick={closeNav} className="closeNavbar">
-                 <AiFillCloseCircle className="icon"/>
+            <div>
+              <a href="#" className="Tour">Tour</a>
             </div>
-        
+            <div>
+              <a href="#" className="Price">Bảng giá</a>
+            </div>
+            <div>
+              <a href="#" className="Order">Đặt tour</a>
+            </div>
+            <div>
+              <Link to="/" className="Home">Trang chủ</Link>
+            </div>
         </div>
-
-        <div onClick={showNav} className="toggleNavbar">
-            <TbGridDots className="icon"/>
-        </div>
-        </header>
-    </section>
-    )
-}
+      );
+};
 
 export default Navbar
