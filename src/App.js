@@ -3,7 +3,8 @@ import './app.css'
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import Home from './Components/Home/Home'
 import Main from './Components/Main/Main'
-import Navbar from "./Components/Navbar/Navbar";
+import Register from "./Components/Register/Register"
+import Login from "./Components/Login/Login"
 
 const App = () => {
     return(
@@ -11,7 +12,9 @@ const App = () => {
         
         <BrowserRouter>      
         <Routes>
-            <Route path='/' element={<Main/>} />
+            <Route path='/' element={<Login/>} />
+            <Route path='/Register' element={<Register/>} />
+            <Route path='/Main' element={<Main/>} />
             <Route path='/About' element={<Home/>} />
         </Routes>
     

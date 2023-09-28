@@ -1,0 +1,151 @@
+.RegisterPage{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  .RegisterSection {
+    background-color: #ffffff;
+    height: 1170px;
+    position: relative;
+    width: 1728px;
+  }
+  
+  .footer {
+    background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/6513cf7c8c51dd5f92a8d0c5/img/rectangle-11.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 293px;
+    left: 0;
+    position: absolute;
+    top: 900px;
+    width: 1728px;
+  }
+  
+  .RegForm {
+    background-size: 100% 100%;
+    height: 739px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 1728px;
+  }
+  .RegImg {
+    background-size: 100% 100%;
+    height: 739px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 1728px;
+  }
+  
+  .RegText {
+    color: #f8f8f8;
+    font-family: "Inter", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 737px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 120px;
+  }
+  
+  .UsernameForm {
+    background-color: #f8f8f8;
+    height: 70px;
+    left: 626px;
+    position: absolute;
+    top: 220px;
+    width: 419px;
+    color: #b9b4c7;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .PasswordForm {
+    background-color: #f8f8f8;
+    height: 70px;
+    left: 624px;
+    position: absolute;
+    top: 324px;
+    width: 419px;
+    color: #b9b4c7;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  
+  .mdi-password-1 {
+    height: 24px;
+    left: 1006px;
+    position: absolute;
+    top: 345px;
+    width: 24px;
+  }
+  
+  .mdi-password-2 {
+      height: 24px;
+      left: 1006px;
+      position: absolute;
+      top: 453px;
+      width: 24px;
+    }
+  
+  .RepeatPasswordForm {
+    background-color: #f8f8f8;
+    height: 70px;
+    left: 624px;
+    position: absolute;
+    top: 430px;
+    width: 419px;
+    color: #b9b4c7;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .EmailForm {
+    background-color: #f8f8f8;
+    height: 70px;
+    left: 624px;
+    position: absolute;
+    top: 530px;
+    width: 419px;
+    color: #f8f8f8;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .RegButton {
+    background-color: #de9e5b;
+    height: 70px;
+    left: 624px;
+    position: absolute;
+    top: 630px;
+    width: 419px;
+    color: #f8f8f8;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .navbar {
+      left: 484px !important;
+      position: absolute !important;
+      top: 55px !important;
+  }
+  
+  .logo {
+      height: 77px;
+      left: 70px;
+      object-fit: cover;
+      position: absolute;
+      top: 29px;
+      width: 244px;
+  }
+}
+
+

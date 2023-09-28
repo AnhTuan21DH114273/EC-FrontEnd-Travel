@@ -1,27 +1,25 @@
 import React from "react"
 import './home.css'
 import { Navbar } from "../../Components/Navbar/Navbar";
+import { Footer } from "../../Components/Footer/Footer"
 import LogoImg from "../../Assets/Logo.png"
 import AboutImg from "../../Assets/About.png"
 import TourImg from "../../Assets/TourTitle.png"
 import AbilityImg from "../../Assets/Ability.png"
 import HotelImg from "../../Assets/HotelVN.png"
 import SpaImg from "../../Assets/SpaSinga.png"
-
+import ArrowSVG from "../../Assets/ArrowSVG.svg"
+import VnCity from "../../Assets/Tp.HCM.jpg"
+import VnCity1 from "../../Assets/HaNoi.jpg"
+import VnCity2 from "../../Assets/Hue.jpg"
+import OutVN from "../../Assets/NewYork.jpg"
+import OutVN1 from "../../Assets/Singapore.jpg"
+import OutVN2 from "../../Assets/Malay.jpg"
 
 const Home = () => {
     return (
         <div className="HomePage">
-          <div className="ContactSection">
-            <button className="ContactButton">
-              <a href="#" className="Contact">Liên hệ chúng tôi</a>
-            </button>
-            <div className="text-wrapper-6">VN</div>
-            <img
-              className="mdi-account"
-              alt="Mdi account"
-              src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/mdi-account.svg"
-            />
+          <div className="HomeSection">
             <div className="Welcome">
               <img className="Welcome" src={TourImg}></img>
               <p className="p">Hãy yên tâm trải nghiệm du lịch vòng quanh thế giới cùng chúng tôi nhé!</p>
@@ -44,53 +42,35 @@ const Home = () => {
               đến trải nghiệm cho khách hàng một trải nghiệm thoải mái. Chúng tôi cung cấp dịch vụ tập trung vào khách hàng,
               hoàn toàn minh bạch. Tất cả bạn cần làm là ngồi lại, thư giản và tận hưởng chuyến đi.
             </p>
-            <button className="overlap-2">
+            <button href="#" className="AboutButton">
               <a href="#" className="More">XEM THÊM</a>
               <div className="VectorImg">
                 <img
-                  className="vector"
-                  alt="Vector"
-                  src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/vector.svg"
-                />
-                <img
-                  className="img"
-                  alt="Vector"
-                  src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/vector-3.svg"
+                  className="ArrowSVG"
+                  src={ArrowSVG}
                 />
               </div>
             </button>
-            <button className="overlap-4">
-              <a className="More">XEM THÊM</a>
+            <button className="AboutVN">
+              <a href="#" className="More">XEM THÊM</a>
               <div className="VectorImg">
                 <img
-                  className="vector"
-                  alt="Vector"
-                  src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/vector-1.svg"
-                />
-                <img
-                  className="img"
-                  alt="Vector"
-                  src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/vector-3.svg"
+                  className="ArrowSVG"
+                  src={ArrowSVG}
                 />
               </div>
             </button>
-            <button className="overlap-5">
-              <a className="More">XEM THÊM</a>
+            <button className="AboutSinga">
+              <a href="#" className="More">XEM THÊM</a>
               <div className="VectorImg">
                 <img
-                  className="vector"
-                  alt="Vector"
-                  src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/vector-1.svg"
-                />
-                <img
-                  className="img"
-                  alt="Vector"
-                  src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/vector-3.svg"
+                  className="ArrowSVG"
+                  src={ArrowSVG}
                 />
               </div>
             </button>
-            <div className="overlap-6">
-              <img className="overlap-6" src={AbilityImg}></img>
+            <div className="AbilitySection">
+              <img className="AbilitySection" src={AbilityImg}></img>
               <p className="Ability">TÍNH NĂNG CỦA CHÚNG TÔI</p>
               <div className="Advantage">Ưu Điểm</div>
               <p className="AbilityText">
@@ -113,58 +93,49 @@ const Home = () => {
             <div className="OutContry">NGOÀI NƯỚC</div>
             <div className="InContry1">
               <div className="TpHCM">
+                <img src={VnCity} className="TpHCM"/>
                 <p className="TpHCMText">Thành phố Hồ Chí Minh</p>
               </div>
             </div>
             <div className="OutContry1">
               <div className="NewYork">
+              <img src={OutVN} className="NewYork"/>
                 <div className="NewYorkText">New York</div>
               </div>
             </div>
             <div className="OutContry2">
               <div className="Singapore">
+              <img src={OutVN1} className="Singapore"/>
                 <div className="SingaporeText">Singapore</div>
               </div>
             </div>
             <div className="OutContry3">
               <div className="Malay">
+              <img src={OutVN2} className="Malay"/>
                 <div className="MalayText">Malaysia</div>
               </div>
             </div>
             <div className="InContry2">
               <div className="HaNoi">
+                <img src={VnCity1} className="HaNoi"/>
                 <div className="HaNoiText">Hà Nội</div>
               </div>
             </div>
             <div className="InContry3">
               <div className="Hue">
+                <img src={VnCity2} className="Hue"/>
                 <div className="HueText">Huế</div>
               </div>
             </div>
             <img className="HotelImage" src={HotelImg}/>
             <img className="SpaImage" src={SpaImg}/>
-            <div className="footer">
-              <p className="FooterText">Đăng ký nhận bản tin của chúng tôi</p>
-              <p className="FooterText1">Chúng tôi sẽ hỗ trợ bạn</p>
-              <div className="Email">
-                <div className="WriteEmail">
-                  <div className="EmailText">Email</div>
-                </div>
-                <button className="SignUp">
-                  <a href="#" className="SignUpButton">ĐĂNG KÝ</a>
-                </button>
-              </div>
-            </div>
-            <img
-              className="Language"
-              
-              src="https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/vector-6.svg"
-            />
+            
             <img
               className="logo"
               src={LogoImg}
             />
             <Navbar className="navbar" />
+            <Footer className="footer" />
           </div>
         </div>
       );

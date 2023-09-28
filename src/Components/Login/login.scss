@@ -1,0 +1,230 @@
+.LoginPage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    .LoginSection {
+        height: 1170px;
+        position: relative;
+        width: 1728px;
+        
+      }
+    .LoginForm {
+        background-size: 100% 100%;
+        height: 739px;
+        left: 0;
+        position: absolute;
+        top: 80px;
+        width: 1728px;
+    }
+    .LoginBackground {
+        background-size: 100% 100%;
+        height: 739px;
+        left: 0;
+        position: absolute;
+        top: 80px;
+        width: 1728px;
+    }
+    .LogText {
+        color: #f8f8f8;
+        font-family: "Inter", Helvetica;
+        font-size: 48px;
+        font-weight: 700;
+        left: 715px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 120px;
+    }
+    
+    .overlap-3 {
+        background-color: #f8f8f8;
+        height: 70px;
+        left: 626px;
+        position: absolute;
+        top: 220px;
+        width: 419px;
+        color: #b9b4c7;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .PasswordForm {
+        background-color: #f8f8f8;
+        height: 70px;
+        left: 624px;
+        position: absolute;
+        top: 324px;
+        width: 419px;
+        color: #b9b4c7;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    
+    .mdi-password-1 {
+        height: 24px;
+        left: 1006px;
+        position: absolute;
+        top: 346px;
+        width: 24px;
+    }
+    
+    .EmailForm {
+        background-color: #f8f8f8;
+        height: 70px;
+        left: 624px;
+        position: absolute;
+        top: 220px;
+        width: 419px;
+        color: #b9b4c7;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .LoginButton {
+        background-color: #de9e5b;
+        height: 70px;
+        left: 624px;
+        position: absolute;
+        top: 435px;
+        width: 419px;
+        color: #f8f8f8;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .ForgotPassword {
+        color: #f8f8f8;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+        left: 886px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 530px;
+        white-space: nowrap;
+      }
+      
+    .CreateAcc {
+        color: #f8f8f8;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+        left: 628px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 530px;
+        white-space: nowrap;
+    }
+    .Or {
+        color: #f8f8f8;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+        left: 808px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 570px;
+        white-space: nowrap;
+        text-decoration: underline;
+    }
+     .GoogleButton {
+        background-color: #f33434;
+        border-radius: 12px;
+        height: 52px;
+        left: 900px;
+        position: absolute;
+        top: 625px;
+        width: 211px;
+      }
+      
+       .GoogleText {
+        color: #f8f8f8;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+        left: 90px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 13px;
+        white-space: nowrap;
+      }
+      
+       .GoogleIcon {
+        height: 24px;
+        left: 44px;
+        position: absolute;
+        top: 14px;
+        width: 24px;
+      }
+      
+       .GooglePlus {
+        height: 10px;
+        left: 68px;
+        position: absolute;
+        top: 21px;
+        width: 10px;
+      }
+     .FacebookButton {
+        background-color: #08a0f5;
+        border-radius: 12px;
+        height: 52px;
+        left: 560px;
+        position: absolute;
+        top: 625px;
+        width: 211px;
+      }
+      
+       .FacebookText {
+        color: #f8f8f8;
+        font-family: "Inter", Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+        left: 78px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 13px;
+        white-space: nowrap;
+      }
+      
+       .FacebookIcon {
+        height: 24px;
+        left: 35px;
+        position: absolute;
+        top: 14px;
+        width: 24px;
+      }
+    .footer {
+        background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/6513cf7c8c51dd5f92a8d0c5/img/rectangle-11.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 293px;
+        left: 0;
+        position: absolute;
+        top: 900px;
+        width: 1728px;
+    }
+    .logo {
+        height: 77px;
+        left: 70px;
+        object-fit: cover;
+        position: absolute;
+        top: 29px;
+        width: 244px;
+    }
+     .navbar {
+        left: 484px !important;
+        position: absolute !important;
+        top: 55px !important;
+    }
+}

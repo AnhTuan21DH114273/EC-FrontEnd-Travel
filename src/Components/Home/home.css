@@ -5,57 +5,11 @@
   justify-content: center;
   width: 100%;
 }
-
-.HomePage .ContactSection {
+.HomePage .HomeSection {
   height: 4584px;
   position: relative;
   width: 1728px;
 }
-
-.HomePage .ContactButton {
-  background-color: #081b46;
-  border-radius: 10px;
-  height: 61px;
-  left: 1323px;
-  position: absolute;
-  top: 37px;
-  width: 209px;
-}
-
-.HomePage .Contact {
-  color: #ffffff;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 600;
-  left: 23px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 17px;
-  white-space: nowrap;
-}
-
-.HomePage .text-wrapper-6 {
-  color: #081b46;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 600;
-  left: 1635px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 54px;
-  white-space: nowrap;
-}
-
-.HomePage .mdi-account {
-  height: 59px;
-  left: 1554px;
-  position: absolute;
-  top: 37px;
-  width: 59px;
-}
-
 .HomePage .Welcome {
   background-position: 50% 50%;
   background-size: cover;
@@ -65,7 +19,6 @@
   top: 70px;
   width: 1726px;
 }
-
 .HomePage .p {
   color: #081b46;
   font-family: "Inter", Helvetica;
@@ -78,7 +31,6 @@
   top: 230px;
   white-space: nowrap;
 }
-
 .HomePage .TourText {
   color: #de9e5b;
   font-family: "Inter", Helvetica;
@@ -91,7 +43,6 @@
   top: 270px;
   white-space: nowrap;
 }
-
 .HomePage .BtnOrder {
   border: 3px solid;
   border-color: #081b46;
@@ -102,7 +53,6 @@
   top: 350px;
   width: 186px;
 }
-
 .HomePage .PressOrder {
   color: #081b46;
   font-family: "Inter", Helvetica;
@@ -116,7 +66,6 @@
   top: 17px;
   white-space: nowrap;
 }
-
 .HomePage .rectangle {
   height: 529px;
   left: 835px;
@@ -126,7 +75,6 @@
   top: 748px;
   width: 852px;
 }
-
 .HomePage .Why {
   color: #de9e5b;
   font-family: "Inter", Helvetica;
@@ -138,7 +86,6 @@
   position: absolute;
   top: 844px;
 }
-
 .HomePage .AboutUs {
   color: #081b46;
   font-family: "Inter", Helvetica;
@@ -151,7 +98,6 @@
   top: 887px;
   white-space: nowrap;
 }
-
 .HomePage .Popular {
   color: #081b46;
   font-family: "Inter", Helvetica;
@@ -164,7 +110,6 @@
   top: 2258px;
   white-space: nowrap;
 }
-
 .HomePage .Channel {
   color: #081b46;
   font-family: "Inter", Helvetica;
@@ -177,7 +122,6 @@
   top: 3287px;
   white-space: nowrap;
 }
-
 .HomePage .AboutUsText {
   color: #B9B4C7;
   font-family: "Inter", Helvetica;
@@ -191,8 +135,7 @@
   top: 986px;
   width: 626px;
 }
-
-.HomePage .overlap-2 {
+.HomePage .AboutButton {
   border: 3px solid;
   border-color: #081b46;
   background-color: transparent;
@@ -202,7 +145,6 @@
   top: 1152px;
   width: 186px;
 }
-
 .HomePage .More {
   color: #081b46;
   border-color: #081b46;
@@ -217,7 +159,6 @@
   top: 17px;
   white-space: nowrap;
 }
-
 .HomePage .VectorImg {
   height: 16px;
   left: 144px;
@@ -225,24 +166,14 @@
   top: 25px;
   width: 22px;
 }
-
-.HomePage .vector {
-  height: 2px;
+.HomePage .ArrowSVG {
+  height: 25px;
   left: 0;
   position: absolute;
-  top: 7px;
-  width: 20px;
+  top: -7px;
+  width: 100%;
 }
-
-.HomePage .img {
-  height: 16px;
-  left: 13px;
-  position: absolute;
-  top: 0;
-  width: 9px;
-}
-
-.HomePage .overlap-4 {
+.HomePage .AboutVN {
   border: 3px solid;
   border-color: #081b46;
   background-color: transparent;
@@ -252,8 +183,7 @@
   top: 4191px;
   width: 186px;
 }
-
-.HomePage .overlap-5 {
+.HomePage .AboutSinga {
   border: 3px solid;
   border-color: #081b46;
   background-color: transparent;
@@ -263,8 +193,7 @@
   top: 4191px;
   width: 186px;
 }
-
-.HomePage .overlap-6 {
+.HomePage .AbilitySection {
   background-position: 50% 50%;
   background-size: cover;
   height: 784px;
@@ -273,7 +202,6 @@
   top: 660px;
   width: 1728px;
 }
-
 .HomePage .Ability {
   color: #de9e5b;
   font-family: "Inter", Helvetica;
@@ -285,7 +213,6 @@
   position: absolute;
   top: 900px;
 }
-
 .HomePage .Advantage {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -298,7 +225,6 @@
   top: 930px;
   white-space: nowrap;
 }
-
 .HomePage .AbilityText {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -312,7 +238,6 @@
   top: 990px;
   width: 626px;
 }
-
 .HomePage .Amount {
   color: #de9e5b;
   font-family: "Inter", Helvetica;
@@ -324,7 +249,6 @@
   position: absolute;
   top: 2202px;
 }
-
 .HomePage .New {
   color: #de9e5b;
   font-family: "Inter", Helvetica;
@@ -336,7 +260,6 @@
   position: absolute;
   top: 3231px;
 }
-
 .HomePage .HotelVN {
   color: #081b46;
   font-family: "Inter", Helvetica;
@@ -348,7 +271,6 @@
   position: absolute;
   top: 3915px;
 }
-
 .HomePage .SpaSingapore {
   color: #081b46;
   font-family: "Inter", Helvetica;
@@ -360,7 +282,6 @@
   position: absolute;
   top: 3915px;
 }
-
 .HomePage .DateVN {
   color: #b9b4c7;
   font-family: "Inter", Helvetica;
@@ -372,7 +293,6 @@
   position: absolute;
   top: 3986px;
 }
-
 .HomePage .DateSingapore {
   color: #b9b4c7;
   font-family: "Inter", Helvetica;
@@ -384,7 +304,6 @@
   position: absolute;
   top: 3986px;
 }
-
 .HomePage .TextVN {
   color: #b9b4c7;
   font-family: "Inter", Helvetica;
@@ -397,7 +316,6 @@
   top: 4042px;
   width: 582px;
 }
-
 .HomePage .TextSingapore {
   color: #b9b4c7;
   font-family: "Inter", Helvetica;
@@ -410,7 +328,6 @@
   top: 4042px;
   width: 620px;
 }
-
 .HomePage .InContry {
   color: #de9e5b;
   font-family: "Inter", Helvetica;
@@ -422,7 +339,6 @@
   position: absolute;
   top: 2333px;
 }
-
 .HomePage .OutContry {
   color: #de9e5b;
   font-family: "Inter", Helvetica;
@@ -434,7 +350,6 @@
   position: absolute;
   top: 2782px;
 }
-
 .HomePage .InContry1 {
   height: 316px;
   left: 93px;
@@ -442,16 +357,13 @@
   top: 2390px;
   width: 443px;
 }
-
 .HomePage .TpHCM {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-26.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 316px;
   position: relative;
   width: 441px;
 }
-
 .HomePage .TpHCMText {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -463,7 +375,6 @@
   position: absolute;
   top: 227px;
 }
-
 .HomePage .OutContry1 {
   height: 316px;
   left: 93px;
@@ -471,16 +382,13 @@
   top: 2839px;
   width: 443px;
 }
-
 .HomePage .NewYork {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-29.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 316px;
   position: relative;
   width: 441px;
 }
-
 .HomePage .NewYorkText {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -492,7 +400,6 @@
   position: absolute;
   top: 237px;
 }
-
 .HomePage .OutContry2 {
   height: 316px;
   left: 651px;
@@ -500,16 +407,13 @@
   top: 2839px;
   width: 443px;
 }
-
 .HomePage .Singapore {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-30.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 316px;
   position: relative;
   width: 441px;
 }
-
 .HomePage .SingaporeText {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -521,7 +425,6 @@
   position: absolute;
   top: 237px;
 }
-
 .HomePage .OutContry3 {
   height: 316px;
   left: 1209px;
@@ -529,7 +432,6 @@
   top: 2839px;
   width: 443px;
 }
-
 .HomePage .Malay {
   background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-31.png);
   background-position: 50% 50%;
@@ -538,7 +440,6 @@
   position: relative;
   width: 441px;
 }
-
 .HomePage .MalayText {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -550,7 +451,6 @@
   position: absolute;
   top: 237px;
 }
-
 .HomePage .InContry2 {
   height: 316px;
   left: 651px;
@@ -558,7 +458,6 @@
   top: 2390px;
   width: 443px;
 }
-
 .HomePage .HaNoi {
   background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-27.png);
   background-position: 50% 50%;
@@ -567,7 +466,6 @@
   position: relative;
   width: 441px;
 }
-
 .HomePage .HaNoiText {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -579,7 +477,6 @@
   position: absolute;
   top: 227px;
 }
-
 .HomePage .InContry3 {
   height: 316px;
   left: 1209px;
@@ -587,7 +484,6 @@
   top: 2390px;
   width: 443px;
 }
-
 .HomePage .Hue {
   background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-28.png);
   background-position: 50% 50%;
@@ -596,7 +492,6 @@
   position: relative;
   width: 441px;
 }
-
 .HomePage .HueText {
   color: #ffffff;
   font-family: "Inter", Helvetica;
@@ -608,7 +503,6 @@
   position: absolute;
   top: 227px;
 }
-
 .HomePage .HotelImage {
   height: 469px;
   left: 93px;
@@ -618,7 +512,6 @@
   top: 3399px;
   width: 582px;
 }
-
 .HomePage .SpaImage {
   height: 469px;
   left: 1068px;
@@ -628,7 +521,6 @@
   top: 3399px;
   width: 582px;
 }
-
 .HomePage .footer {
   background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-11.png);
   background-position: 50% 50%;
@@ -639,95 +531,6 @@
   top: 4291px;
   width: 1728px;
 }
-
-.HomePage .FooterText {
-  color: #081b46;
-  font-family: "Inter", Helvetica;
-  font-size: 24px;
-  font-weight: 700;
-  left: 656px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 75px;
-}
-
-.HomePage .FooterText1 {
-  color: #de9e5b;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 700;
-  left: 748px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 121px;
-  white-space: nowrap;
-}
-
-.HomePage .Email {
-  height: 54px;
-  left: 570px;
-  position: absolute;
-  top: 163px;
-  width: 598px;
-}
-
-.HomePage .WriteEmail {
-  background-color: #f8f8f8;
-  border: 1px solid;
-  border-color: #ffffff;
-  height: 54px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 419px;
-}
-
-.HomePage .EmailText {
-  color: #b9b4c7;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 700;
-  left: 23px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 17px;
-  white-space: nowrap;
-  width: 53px;
-}
-
-.HomePage .SignUp {
-  background-color: #081b46;
-  height: 54px;
-  left: 419px;
-  position: absolute;
-  top: 0;
-  width: 175px;
-}
-
-.HomePage .SignUpButton {
-  color: #f8f8f8;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 700;
-  left: 42px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 15px;
-  white-space: nowrap;
-}
-
-.HomePage .Language {
-  height: 10px;
-  left: 1677px;
-  position: absolute;
-  top: 62px;
-  width: 16px;
-}
-
 .HomePage .logo {
   height: 77px;
   left: 70px;
@@ -737,7 +540,6 @@
   top: 29px;
   width: 244px;
 }
-
 .HomePage .navbar {
   left: 484px !important;
   position: absolute !important;

@@ -66,4 +66,51 @@
   position: absolute;
   top: -1px;
   white-space: nowrap;
+}
+.navbar .ContactButton {
+  background-color: #081b46;
+  border-radius: 10px;
+  height: 61px;
+  left: 800px;
+  position: absolute;
+  top: -16px;
+  width: 209px;
+}
+.navbar .Contact {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+.navbar .text-wrapper-6 {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 1150px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
+.navbar .mdi-account {
+  height: 59px;
+  left: 1065px;
+  position: absolute;
+  top: -16px;
+  width: 59px;
+}
+.navbar .Language {
+  height: 10px;
+  left: 1193px;
+  position: absolute;
+  top: 7px;
+  width: 16px;
 }/*# sourceMappingURL=navbar.css.map */

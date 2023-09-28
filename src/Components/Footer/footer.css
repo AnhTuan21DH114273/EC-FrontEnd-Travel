@@ -1,1 +1,90 @@
-/*# sourceMappingURL=footer.css.map */
+.footer {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-11.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 293px;
+  left: 0;
+  position: absolute;
+  top: 4291px;
+  width: 1728px;
+}
+
+.FooterText {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 656px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 75px;
+}
+
+.FooterText1 {
+  color: #de9e5b;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 748px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 121px;
+  white-space: nowrap;
+}
+
+.Email {
+  height: 54px;
+  left: 570px;
+  position: absolute;
+  top: 163px;
+  width: 598px;
+}
+
+.WriteEmail {
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-color: #ffffff;
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 419px;
+}
+
+.EmailText {
+  color: #b9b4c7;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.SignUp {
+  background-color: #081b46;
+  height: 54px;
+  left: 419px;
+  position: absolute;
+  top: 0;
+  width: 175px;
+}
+
+.SignUpButton {
+  color: #f8f8f8;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+}/*# sourceMappingURL=footer.css.map */
