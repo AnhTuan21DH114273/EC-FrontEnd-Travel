@@ -29,7 +29,7 @@ const Home = () => {
               </button>
             </div>
             <img
-              className="rectangle"
+              className="AboutImg"
               alt="Rectangle"
               src={AboutImg}
             />

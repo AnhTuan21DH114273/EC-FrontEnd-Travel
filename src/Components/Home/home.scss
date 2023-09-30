@@ -73,7 +73,8 @@
     white-space: nowrap;
   }
   
-  .rectangle {
+  .AboutImg {
+    border-radius: 20px;
     height: 529px;
     left: 835px;
     object-fit: cover;
@@ -392,6 +393,7 @@
   
   .TpHCM {
     background-position: 50% 50%;
+    border-radius: 20px;
     background-size: cover;
     height: 316px;
     position: relative;
@@ -420,6 +422,7 @@
   
   .NewYork {
     background-position: 50% 50%;
+    border-radius: 20px;
     background-size: cover;
     height: 316px;
     position: relative;
@@ -447,7 +450,7 @@
   }
   
   .Singapore {
-    
+    border-radius: 20px;
     background-position: 50% 50%;
     background-size: cover;
     height: 316px;
@@ -476,7 +479,7 @@
   }
   
   .Malay {
-    background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-31.png);
+    border-radius: 20px;
     background-position: 50% 50%;
     background-size: cover;
     height: 316px;
@@ -505,7 +508,7 @@
   }
   
   .HaNoi {
-    background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-27.png);
+    border-radius: 20px;
     background-position: 50% 50%;
     background-size: cover;
     height: 316px;
@@ -534,7 +537,7 @@
   }
   
   .Hue {
-    background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-28.png);
+    border-radius: 20px;
     background-position: 50% 50%;
     background-size: cover;
     height: 316px;
@@ -556,6 +559,7 @@
   
   .HotelImage {
     height: 469px;
+    border-radius: 20px;
     left: 93px;
     object-fit: cover;
     position: absolute;
@@ -565,6 +569,7 @@
   
   .SpaImage {
     height: 469px;
+    border-radius: 20px;
     left: 1068px;
     object-fit: cover;
     position: absolute;

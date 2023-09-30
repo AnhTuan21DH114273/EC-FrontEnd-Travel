@@ -93,7 +93,7 @@
   font-weight: 700;
 }
 .LoginPage .ForgotPassword {
-  color: #f8f8f8;
+  color: #DE9E5B;
   font-family: "Inter", Helvetica;
   font-size: 20px;
   font-weight: 700;
@@ -104,16 +104,52 @@
   top: 530px;
   white-space: nowrap;
 }
-.LoginPage .CreateAcc {
+.LoginPage .RememberPassword {
+  accent-color: #DE9E5B;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 603px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 532px;
+  white-space: nowrap;
+}
+.LoginPage .RememberPasswordText {
   color: #f8f8f8;
   font-family: "Inter", Helvetica;
   font-size: 20px;
   font-weight: 700;
-  left: 628px;
+  left: 630px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 530px;
+  white-space: nowrap;
+}
+.LoginPage .WantToCreateAcc {
+  color: #B9B4C7;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 600px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 700px;
+  white-space: nowrap;
+}
+.LoginPage .CreateAcc {
+  color: #DE9E5B;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 950px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 700px;
   white-space: nowrap;
 }
 .LoginPage .Or {
@@ -127,7 +163,6 @@
   position: absolute;
   top: 570px;
   white-space: nowrap;
-  text-decoration: underline;
 }
 .LoginPage .GoogleButton {
   background-color: #f33434;

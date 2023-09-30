@@ -66,7 +66,8 @@
   top: 17px;
   white-space: nowrap;
 }
-.HomePage .rectangle {
+.HomePage .AboutImg {
+  border-radius: 20px;
   height: 529px;
   left: 835px;
   -o-object-fit: cover;
@@ -359,6 +360,7 @@
 }
 .HomePage .TpHCM {
   background-position: 50% 50%;
+  border-radius: 20px;
   background-size: cover;
   height: 316px;
   position: relative;
@@ -384,6 +386,7 @@
 }
 .HomePage .NewYork {
   background-position: 50% 50%;
+  border-radius: 20px;
   background-size: cover;
   height: 316px;
   position: relative;
@@ -408,6 +411,7 @@
   width: 443px;
 }
 .HomePage .Singapore {
+  border-radius: 20px;
   background-position: 50% 50%;
   background-size: cover;
   height: 316px;
@@ -433,7 +437,7 @@
   width: 443px;
 }
 .HomePage .Malay {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-31.png);
+  border-radius: 20px;
   background-position: 50% 50%;
   background-size: cover;
   height: 316px;
@@ -459,7 +463,7 @@
   width: 443px;
 }
 .HomePage .HaNoi {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-27.png);
+  border-radius: 20px;
   background-position: 50% 50%;
   background-size: cover;
   height: 316px;
@@ -485,7 +489,7 @@
   width: 443px;
 }
 .HomePage .Hue {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-28.png);
+  border-radius: 20px;
   background-position: 50% 50%;
   background-size: cover;
   height: 316px;
@@ -505,6 +509,7 @@
 }
 .HomePage .HotelImage {
   height: 469px;
+  border-radius: 20px;
   left: 93px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -514,6 +519,7 @@
 }
 .HomePage .SpaImage {
   height: 469px;
+  border-radius: 20px;
   left: 1068px;
   -o-object-fit: cover;
      object-fit: cover;

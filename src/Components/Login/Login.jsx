@@ -26,7 +26,10 @@ const Login = () => {
                         />
                     <input type="submit" className="LoginButton" value="    ĐĂNG NHẬP"/>
                     <div className="ForgotPassword">Quên mật khẩu?</div>
-                    <Link to="/Register" className="CreateAcc">Tạo tài khoản?</Link>
+                    <input type="checkbox" className="RememberPassword"/>
+                    <div className="RememberPasswordText">Nhớ mật khẩu</div>
+                    <div className="WantToCreateAcc">Bạn mới biết đến SeaWonder Tour?</div>
+                    <Link to="/Register" className="CreateAcc">Đăng ký</Link>
                     <div className="Or">Hoặc</div>
                     <button href="#" className="GoogleButton">
                         <a href="#" className="GoogleText">Google</a>
