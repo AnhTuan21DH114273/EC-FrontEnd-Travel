@@ -9,7 +9,7 @@
   background-color: #ffffff;
   height: 1170px;
   position: relative;
-  width: 1728px;
+  width: 100%;
 }
 .RegisterPage .footer {
   background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/6513cf7c8c51dd5f92a8d0c5/img/rectangle-11.png);
@@ -19,7 +19,7 @@
   left: 0;
   position: absolute;
   top: 900px;
-  width: 1728px;
+  width: 100%;
 }
 .RegisterPage .RegForm {
   background-size: 100% 100%;
@@ -27,7 +27,7 @@
   left: 0;
   position: absolute;
   top: 80px;
-  width: 1728px;
+  width: 100%;
 }
 .RegisterPage .RegImg {
   background-size: 100% 100%;
@@ -35,7 +35,7 @@
   left: 0;
   position: absolute;
   top: 80px;
-  width: 1728px;
+  width: 100%;
 }
 .RegisterPage .RegText {
   color: #f8f8f8;

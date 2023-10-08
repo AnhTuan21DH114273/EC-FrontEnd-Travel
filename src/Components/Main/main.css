@@ -5,32 +5,958 @@
   justify-content: center;
   width: 100%;
 }
-.MainPage .MainSection {
-  height: 4584px;
+
+.MainSection {
+  background-color: #ffffff;
+  height: 6188px;
   position: relative;
-  width: 1728px;
+  width: 100%;
 }
-.MainPage .footer {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-11.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 293px;
+
+.MainWelcome {
+  height: 267px;
   left: 0;
   position: absolute;
-  top: 4291px;
-  width: 1728px;
+  top: 599px;
+  width: 100%;
 }
-.MainPage .logo {
-  height: 77px;
-  left: 70px;
-  -o-object-fit: cover;
-     object-fit: cover;
+
+.TabSection {
+  background-color: rgba(8, 160, 245, 0.2588235294);
+  height: 127px;
+  left: 0;
   position: absolute;
-  top: 29px;
-  width: 244px;
+  top: -10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.MainPage .navbar {
+.TabSection .Tab {
+  margin-left: 120px;
+  margin-top: 70px;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+.TabSection .Icons {
+  width: 34px;
+  position: absolute;
+  top: 20px;
+  margin-left: 30px;
+}
+.TabSection .Combo {
+  width: 80px;
+  position: absolute;
+  top: 20px;
+  margin-left: 5px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 529px;
+  width: 100%;
+  top: 1020px;
+  margin: auto;
+}
+
+.slider {
+  height: 529px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slider .slide-track {
+  animation: scroll 4s linear infinite;
+  display: flex;
+  width: 3500px;
+}
+
+.slider .slide {
+  height: 529px;
+  width: 100%;
+}
+
+.slider .slide img {
+  height: 529px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: relative;
+  width: 1062px;
+  border-radius: 10px;
+  margin-left: 40px;
+  border: 2px solid #bbbbbb;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+.sliders {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  top: -500px;
+}
+
+.images {
+  height: 490px;
+  display: flex;
+  width: 100%;
+  animation: slideshow 10s infinite;
+}
+
+.images img {
+  width: 100%;
+  transition: all 0.15s ease;
+}
+
+.images input {
+  display: none;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 5px;
+  top: -50px;
+}
+
+.dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid #000000 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+
+.dots label:hover {
+  background: #fff;
+}
+
+#img1:checked ~ .m1 {
+  margin-left: 0;
+}
+
+#img2:checked ~ .m2 {
+  margin-left: -100%;
+}
+
+#img3:checked ~ .m3 {
+  margin-left: -200%;
+}
+
+#img4:checked ~ .m4 {
+  margin-left: -300%;
+}
+
+@keyframes slideshow {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+img {
+  width: 100%;
+}
+
+.navbar {
   left: 484px !important;
   position: absolute !important;
   top: 55px !important;
+}
+
+.footer {
+  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/650e5a0ab34031947f682b09/img/rectangle-11.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 307px;
+  top: 5895px;
+  position: absolute;
+  width: 100%;
+}
+
+.UuDai {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -60px;
+  white-space: nowrap;
+}
+
+.ExText {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1568px;
+  white-space: nowrap;
+}
+
+.UuDaiHour {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2202px;
+  white-space: nowrap;
+}
+
+.UuDaiSpecial {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 3053px;
+  white-space: nowrap;
+}
+
+.FavoriteText {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4500px;
+  white-space: nowrap;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 91px;
+  position: relative;
+  top: 1600px;
+  border-radius: 10px;
+}
+.column .Explore {
+  border-radius: 10px;
+}
+.column .ExploreText {
+  left: 83px;
+  width: 274px;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  left: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 450px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnDiscount {
+  float: left;
+  height: 633px;
+  left: 72px;
+  position: relative;
+  margin-left: 50px;
+  top: 1700px;
+  width: 504px;
+}
+
+.rowDiscount::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.BoxHour {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5019607843);
+  height: 632px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 504px;
+}
+
+.ImgHour {
+  height: 277px;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 504px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.Date {
+  height: 15px;
+  left: 19px;
+  position: absolute;
+  top: 294px;
+  width: 118px;
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ActualPrice {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: line-through;
+  top: 0;
+}
+
+.Destination {
+  height: 17px;
+  left: 19px;
+  position: absolute;
+  top: 421px;
+  width: 206px;
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.Time {
+  background-color: #ffffff;
+  height: 33px;
+  position: relative;
+  width: 98px;
+  top: 244px;
+}
+
+.LastHour {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 9px;
+}
+
+.ClockSVG {
+  height: 10px;
+  left: 12px;
+  position: absolute;
+  top: 11px;
+  width: 10px;
+}
+
+.NumberCare {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.AwesomeCare {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -20px;
+  white-space: nowrap;
+}
+
+.Box {
+  background-color: rgba(217, 217, 217, 0.5019607843);
+  border-radius: 10px;
+  height: 16px;
+  left: 419px;
+  position: absolute;
+  top: 63px;
+  width: 78px;
+}
+
+.BigBox {
+  background-color: rgba(217, 217, 217, 0.5019607843);
+  border-radius: 10px;
+  height: 48px;
+  left: 419px;
+  position: absolute;
+  top: 38px;
+  width: 78px;
+}
+
+.Locations {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 324px;
+}
+
+.Tour {
+  height: 16px;
+  left: 56px;
+  position: absolute;
+  top: 389px;
+  width: 290px;
+}
+
+.TextTourID {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.TourID {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 221px;
+}
+
+.Money {
+  color: #f33434;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+  white-space: nowrap;
+}
+
+.TypeDollar {
+  height: 21px;
+  left: 111px;
+  position: absolute;
+  top: 25px;
+  width: 14px;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.MoneySection {
+  height: 15px;
+  left: 19px;
+  position: absolute;
+  top: 448px;
+  width: 104px;
+}
+
+.Price {
+  height: 15px;
+  position: relative;
+  width: 100px;
+}
+
+.Percentage {
+  background-color: #f33434;
+  border-radius: 9px;
+  height: 35px;
+  left: 418px;
+  position: absolute;
+  top: 463px;
+  width: 67px;
+}
+
+.PercentageText {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 10px;
+}
+
+.TicketLeft {
+  border: 3px solid;
+  border-color: #081b46;
+  height: 65px;
+  left: 61px;
+  position: absolute;
+  top: 523px;
+  width: 357px;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.TicketLeft-Text {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.vector {
+  height: 17px;
+  left: -38px;
+  position: absolute;
+  top: 1px;
+  width: 20px;
+}
+
+.BoxNumber {
+  height: 37px;
+  left: 463px;
+  position: absolute;
+  top: 9px;
+  width: 36px;
+}
+
+.BoxNumberSVG {
+  background-size: 100% 100%;
+  height: 37px;
+  position: relative;
+  width: 34px;
+}
+
+.Number {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.columnSpecial {
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5019607843);
+  height: 358px;
+  left: 100px;
+  position: relative;
+  top: 1850px;
+  width: 1625px;
+}
+
+.rowSpecial::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.GoDate {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  letter-spacing: 0;
+  line-height: normal;
+  left: 25px;
+  top: 5px;
+  white-space: nowrap;
+}
+
+.AwesomeText1 {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 55px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.TicketPlane {
+  color: #b9b4c7;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  height: 24px;
+  left: 461px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 187px;
+  white-space: nowrap;
+}
+
+.ImgSpecial {
+  height: 356px;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 447px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.PlaneHotel {
+  background-color: #081b46;
+  border-radius: 10px;
+  height: 67px;
+  left: 461px;
+  position: absolute;
+  top: 17px;
+  width: 284px;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 25px;
+}
+
+.columnStar {
+  height: 17px;
+  left: 455px;
+  position: relative;
+  margin-left: 4px;
+  top: 158px;
+  width: 18px;
+  float: left;
+}
+
+.rowStar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ComboPlaneHotel {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 44px;
+  left: 461px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 102px;
+}
+
+.LocationPoint {
+  color: #699bf7;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 65px;
+  white-space: nowrap;
+}
+
+.Includes {
+  color: #699bf7;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 1482px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 290px;
+  white-space: nowrap;
+}
+
+.LineVector {
+  height: 255px;
+  left: 1253px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 46px;
+  width: 1px;
+}
+
+.PriceFrom {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 1502px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 130px;
+  white-space: nowrap;
+}
+
+.PriceDate {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 1421px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 161px;
+  white-space: nowrap;
+}
+
+.Cash {
+  color: #f33434;
+  font-weight: 700;
+}
+
+.PerCus {
+  color: #000000;
+  font-weight: 500;
+  position: absolute;
+  top: -1px;
+  left: 110px;
+}
+
+.OrderNow {
+  background-color: #f33434;
+  border-radius: 10px;
+  height: 34px;
+  left: 1502px;
+  position: absolute;
+  top: 236px;
+  width: 93px;
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.VectorGroup {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.BoxNumber1 {
+  background-size: 100% 100%;
+  height: 44px;
+  position: relative;
+  width: 41px;
+}
+
+.NumberBox {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 700;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  width: 22px;
+}
+
+.PinPoint {
+  height: 33px;
+  left: -2px;
+  position: absolute;
+  top: 56px;
+  width: 34px;
+}
+
+.LocationSection {
+  height: 87px;
+  left: 460px;
+  position: absolute;
+  top: 227px;
+  width: 41px;
+}
+
+.columnFavorite {
+  float: left;
+  height: 500px;
+  left: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 40px;
+  top: 2100px;
+  width: 433px;
+  border-radius: 20px;
+}
+.columnFavorite .ImgFav {
+  border-radius: 20px;
+}
+
+.rowFavortie::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.FavPlace {
+  color: #081b46;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.NumberCus {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  bottom: 50px;
+  white-space: nowrap;
 }/*# sourceMappingURL=main.css.map */

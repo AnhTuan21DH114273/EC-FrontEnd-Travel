@@ -5,8 +5,9 @@ import Home from './Components/Home/Home'
 import Main from './Components/Main/Main'
 import Register from "./Components/Register/Register"
 import Login from "./Components/Login/Login"
+import Navbar from "./Components/Navbar/Navbar"
 
-const App = () => {
+export const App = () => {
     return(
     <>  
         
@@ -17,7 +18,6 @@ const App = () => {
             <Route path='/Main' element={<Main/>} />
             <Route path='/About' element={<Home/>} />
         </Routes>
-    
       </BrowserRouter>
     </>
     )

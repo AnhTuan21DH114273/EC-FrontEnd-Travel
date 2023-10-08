@@ -8,7 +8,7 @@
 .LoginPage .LoginSection {
   height: 1170px;
   position: relative;
-  width: 1728px;
+  width: 100%;
 }
 .LoginPage .LoginForm {
   background-size: 100% 100%;
@@ -16,15 +16,15 @@
   left: 0;
   position: absolute;
   top: 80px;
-  width: 1728px;
+  width: 100%;
 }
 .LoginPage .LoginBackground {
-  background-size: 100% 100%;
+  background-size: 50% 50%;
   height: 739px;
   left: 0;
   position: absolute;
   top: 80px;
-  width: 1728px;
+  width: 100%;
 }
 .LoginPage .LogText {
   color: #f8f8f8;
@@ -228,14 +228,13 @@
   width: 24px;
 }
 .LoginPage .footer {
-  background-image: url(https://cdn.animaapp.com/projects/650e59cf2e4e252d8d5cdce3/releases/6513cf7c8c51dd5f92a8d0c5/img/rectangle-11.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 293px;
   left: 0;
   position: absolute;
   top: 900px;
-  width: 1728px;
+  width: 100%;
 }
 .LoginPage .logo {
   height: 77px;

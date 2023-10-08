@@ -52,7 +52,7 @@ const Login = () => {
                             src={FacebookSVG}
                             />
                     </button>
-                </form>
+            </form>
             <img
               className="logo"
               src={LogoImg}

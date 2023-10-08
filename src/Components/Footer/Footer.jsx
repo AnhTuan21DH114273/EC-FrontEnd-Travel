@@ -8,9 +8,9 @@ export const Footer = () => {
             <p className="FooterText">Đăng ký nhận bản tin của chúng tôi</p>
             <p className="FooterText1">Chúng tôi sẽ hỗ trợ bạn</p>
             <div className="Email">
-            <div className="WriteEmail">
-                <div className="EmailText">Email</div>
-            </div>
+                <ul className="WriteEmail">
+                    <div className="EmailText">Email</div>
+                </ul>
             <button className="SignUp">
                 <a href="#" className="SignUpButton">ĐĂNG KÝ</a>
             </button>
