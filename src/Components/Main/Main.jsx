@@ -255,7 +255,7 @@ const Main = () => {
               <ul>
                 <li className="Date">14/10/2023 - 4 ngày</li>
                 <li className="Locations">
-                  Phú Quóc - Nha Trang - Quy Nhơn<br />
+                  Phú Quốc - Nha Trang - Quy Nhơn<br />
                   (Khách sạn 3 * Trọn Tour )
                 </li>
                 <div className="Tour">
@@ -282,7 +282,7 @@ const Main = () => {
                 <div className="PercentageText">13% GIẢM</div>
               </div>
               <button className="TicketLeft">
-                <a href="#" className="TicketLeft-Text">Còn 4 vé</a>
+                <a href="#" className="TicketLeft-Text">Còn 3 vé</a>
               </button>
             </div>
           </div>
@@ -311,12 +311,12 @@ const Main = () => {
               <ul>
                 <li className="Date">10/10/2023 - 4 ngày</li>
                 <li className="Locations">
-                  Đà Nẵng - Huế - Cầu Vàng - Sơn Trà - Hội An <br />
-                  (Khách sạn 4 * Trọn Tour )
+                  Đà Lạt - Nha Trang <br />
+                  (Khách sạn 3 * Trọn Tour )
                 </li>
                 <div className="Tour">
                   <p className="TextTourID">Mã tour:</p>
-                  <p className="TourID">NDSGN3391-069-270923VU-F-1</p>
+                  <p className="TourID">ĐLNT3392-070-270923NT-F-3</p>
                   <img
                     className="vector"
                     alt="Vector"
@@ -328,10 +328,10 @@ const Main = () => {
                 <div className="MoneySection">
                 <div className="Price">
                   <div className="text-wrapper-32"></div>
-                  <div className="ActualPrice">Giá: 5,500,000đ</div>
+                  <div className="ActualPrice">Giá: 4,590,000đ</div>
 
                 </div>
-                <li className="Money">5,300,000</li>
+                <li className="Money">4,390,000</li>
                 <li className="TypeDollar">đ</li>
                 </div>
               </ul>
@@ -339,7 +339,7 @@ const Main = () => {
                 <div className="PercentageText">4% GIẢM</div>
               </div>
               <button className="TicketLeft">
-                <a href="#" className="TicketLeft-Text">Còn 4 vé</a>
+                <a href="#" className="TicketLeft-Text">Còn 3 vé</a>
               </button>
             </div>
           </div>
@@ -380,8 +380,7 @@ const Main = () => {
                     />
                   </div>
               </div>
-              
-              
+ 
               <img
                 className="LineVector"
                 alt="Line"
@@ -416,7 +415,7 @@ const Main = () => {
               <p className="PlaneHotel">Vé máy bay + khách sạn</p>
               <ul>
                 <li className="ComboPlaneHotel">
-                  Combo Quy Nhơn 3N2Đ: Vé máy bay khứ hồi + Khách sạn Anina 4 sao <br />
+                  Combo Nha Trang 3N2Đ: Vé máy bay khứ hồi + Khách sạn Pearl Beach 3 sao <br />
                   (Bao gồm điểm tâm buổi sáng)
                 </li>
                 <li className="TicketPlane">Vé máy bay khứ hồi Vietravel Airlines + Phòng tiêu chuẩn + Ăn sáng</li>
@@ -453,7 +452,7 @@ const Main = () => {
               />
               <p className="PriceFrom">Giá chỉ từ</p>
               <ul className="PriceDate">
-                <li className="Cash">2,390,000 </li>
+                <li className="Cash">1,390,000 </li>
                 <li className="PerCus">/khách</li>
                 <li className="GoDate">Ngày đi 14/10/2023</li>
               </ul>
@@ -470,7 +469,7 @@ const Main = () => {
                   src={PinPoint}
                 />
                 <p className="LocationPoint">
-                1H1 Nguyễn Thị Định, Nguyễn Văn Cừ, Thành phố Quy Nhơn, Quy Nhon, Binh Dinh, Viet Nam
+                Lô LKC-D20 Đại Phú Gia, KĐT TM Bắc Sông Hà Thanh (khu C), Nha Trang, Khánh Hòa, Viet Nam
                 </p>
               </div>
             </div>
@@ -478,7 +477,7 @@ const Main = () => {
               <p className="PlaneHotel">Vé máy bay + khách sạn</p>
               <ul>
                 <li className="ComboPlaneHotel">
-                  Combo Quy Nhơn 3N2Đ: Vé máy bay khứ hồi + Khách sạn Anina 4 sao <br />
+                  Combo Hội An 3N2Đ: Vé máy bay khứ hồi + Khách sạn Pearl Beach 3 sao <br />
                   (Bao gồm điểm tâm buổi sáng)
                 </li>
                 <li className="TicketPlane">Vé máy bay khứ hồi Vietravel Airlines + Phòng tiêu chuẩn + Ăn sáng</li>
@@ -517,7 +516,7 @@ const Main = () => {
               />
               <p className="PriceFrom">Giá chỉ từ</p>
               <ul className="PriceDate">
-                <li className="">2,390,000 </li>
+                <li className="Cash">1,890,000 </li>
                 <li className="PerCus">/khách</li>
                 <li className="GoDate">Ngày đi 14/10/2023</li>
               </ul>
@@ -536,7 +535,7 @@ const Main = () => {
                   src={PinPoint}
                 />
                 <p className="LocationPoint">
-                1H1 Nguyễn Thị Định, Nguyễn Văn Cừ, Thành phố Quy Nhơn, Quy Nhon, Binh Dinh, Viet Nam
+                15 - 17 Nguyễn Huệ, Hải Cảng, Thành phố Hội An, Hà Nội, Vietnam
                 </p>
               </div>
             </div>
